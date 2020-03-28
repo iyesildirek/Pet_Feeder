@@ -16,7 +16,7 @@ class Pond {
     int waterLevel;
   public:
     void setWaterLevel (int);
-    int getWaterLevel {void};
+    int getWaterLevel (void);
 };
 
 //Global Variables
@@ -30,7 +30,7 @@ int main()
   int pondWaterLevel = 0;
   cout << "Pond Monitoring System!" << endl;
   cout << "Current water level is: " << pondWaterLevel << endl;
-  pond.setWaterLevel(40)
+  pond.setWaterLevel(40);
   cout << "New water level is: " << pond.getWaterLevel() << endl;
   return 0;
 }
