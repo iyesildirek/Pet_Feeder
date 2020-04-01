@@ -26,8 +26,8 @@ using namespace std;
 
 int main()
 {
+  int pondWaterLevel = 0;	
   Pond pond;
-  int pondWaterLevel = 0;
   cout << "Pond Monitoring System!" << endl;
   cout << "Current water level is: " << pondWaterLevel << endl;
   pond.setWaterLevel(40);
